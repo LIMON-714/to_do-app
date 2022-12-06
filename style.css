@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    color:#fff;
+    list-style-type: none;
+    text-decoration: none;
+    outline: none;
+}
+
+.conatiner{
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding: 1rem;
+    background:#090921;
+    
+
+
+}
+
+.card{
+    background:rgb(53, 52, 52);
+    color: #fff;
+    padding: 1rem;
+    min-height:80vh;
+    max-height: 100vh;
+    width:45%;
+    /* overflow: scroll; */
+    border-radius: 0.6rem;
+}
+
+.card-title{
+    font-size:2rem;
+    text-align:center;
+    margin-bottom:1rem;
+
+
+}
+input{
+    border:none;
+    border-radius:0.6rem;
+    padding:0.5rem;
+    width:75%;
+    color:#000;
+}
+.btn{
+    border:none;
+    border-radius:0.6rem;
+    padding:0.5rem;
+    background-color: deepskyblue;
+    transition: all 0.3s;
+    cursor: pointer;
+
+
+}
+.btn:hover{
+    background-color:#fff;
+    color:#000;
+    font-weight: bold;
+
+}
+.btn1{
+    border:none;
+    border-radius:0.6rem;
+    padding:0.5rem;
+    background-color: rgb(240, 157, 32);
+    transition: all 0.3s;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn1:hover{
+ 
+    background-color: #222;
+    color: #fff;
+    transition: all 0.3s;
+}
+.list-style.list-style{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 0.5rem;
+    background: #222;
+    margin-bottom: 0.6rem;
+    margin-top: 0.6rem;
+    border-radius:0.6rem;
+    width:92% ;
+    height: 40px;
+    transition: all 0.3s;
+    
+}
+.list-style:hover{
+   box-shadow: 0 4px 8px 0 rgb(247, 85, 85);
+   transition: all 0.3s;
+}
+
+
+.bg-message {
+    margin:0.5rem 0 ;
+    padding:0.5rem ;
+    color:#000;
+    background:#ddffdd;
+    border-left: 20px solid  #04aa5d;
+    color : maroon;
+    font-weight: 400px;
+    border-radius:0.4rem;
+    text-align:center;
+}
+.bg-deletM {
+    margin:0.5rem 0 ;
+    padding:0.5rem ;
+    color:#000;
+    background: #ffdddd;
+    border-left: 20px solid  #f44336;
+    color : maroon;
+    font-weight: 400px;
+    border-radius:0.4rem;
+    text-align:center;
+}
